@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eaad1da5a69c4dbfbc7ccb4bcb08e95, type: 3}
+  m_Name: M1KoreographyTrack
+  m_EditorClassIdentifier: 
+  mEventID: M1KoreographyTrack
+  mEventList:
+  - mStartSample: 39889
+    mEndSample: 39889
+  - mStartSample: 49588
+    mEndSample: 49588
+  - mStartSample: 61908
+    mEndSample: 61908
+  - mStartSample: 74998
+    mEndSample: 74998
+  - mStartSample: 87318
+    mEndSample: 87318
+  - mStartSample: 110572
+    mEndSample: 110572
+  - mStartSample: 135058
+    mEndSample: 135058
+  - mStartSample: 158312
+    mEndSample: 158312
+  - mStartSample: 183722
+    mEndSample: 183722
+  - mStartSample: 220374
+    mEndSample: 220374
+  - mStartSample: 232232
+    mEndSample: 232232
+  - mStartSample: 244860
+    mEndSample: 244860
+  - mStartSample: 255794
+    mEndSample: 255794
+  - mStartSample: 280742
+    mEndSample: 280742
+  - mStartSample: 305536
+    mEndSample: 305536
+  - mStartSample: 330176
+    mEndSample: 330176
+  - mStartSample: 344036
+    mEndSample: 344036
+  - mStartSample: 365288
+    mEndSample: 365288
+  - mStartSample: 378532
+    mEndSample: 378532
+  - mStartSample: 413798
+    mEndSample: 413798
+  - mStartSample: 425656
+    mEndSample: 425656
+  - mStartSample: 437206
+    mEndSample: 437206
+  - mStartSample: 449988
+    mEndSample: 449988
+  - mStartSample: 462924
+    mEndSample: 462924
+  - mStartSample: 474474
+    mEndSample: 474474
+  - mStartSample: 509586
+    mEndSample: 509586
+  - mStartSample: 523138
+    mEndSample: 523138
+  - mStartSample: 572264
+    mEndSample: 572264
+  - mStartSample: 603680
+    mEndSample: 603680
+  - mStartSample: 612304
+    mEndSample: 612304
+  - mStartSample: 701008
+    mEndSample: 701008
+  - mStartSample: 708554
+    mEndSample: 708554
+  - mStartSample: 716562
+    mEndSample: 716562
+  - mStartSample: 725340
+    mEndSample: 725340
+  - mStartSample: 733040
+    mEndSample: 733040
+  - mStartSample: 742742
+    mEndSample: 742742
+  - mStartSample: 771386
+    mEndSample: 771386
+  - mStartSample: 804650
+    mEndSample: 804650
+  - mStartSample: 825902
+    mEndSample: 825902
+  - mStartSample: 839454
+    mEndSample: 839454
+  - mStartSample: 850696
+    mEndSample: 850696
+  - mStartSample: 899668
+    mEndSample: 899668
+  - mStartSample: 922768
+    mEndSample: 922768
+  - mStartSample: 936782
+    mEndSample: 936782
+  - mStartSample: 947408
+    mEndSample: 947408
+  - mStartSample: 961268
+    mEndSample: 961268
+  - mStartSample: 996380
+    mEndSample: 996380
+  - mStartSample: 1019634
+    mEndSample: 1019634
+  - mStartSample: 1044736
+    mEndSample: 1044736
+  - mStartSample: 1093400
+    mEndSample: 1093400
+  - mStartSample: 1116654
+    mEndSample: 1116654
+  - mStartSample: 1141756
+    mEndSample: 1141756
+  - mStartSample: 1155616
+    mEndSample: 1155616
+  - mStartSample: 1167474
+    mEndSample: 1167474
+  - mStartSample: 1189804
+    mEndSample: 1189804
+  - mStartSample: 1203664
+    mEndSample: 1203664
+  - mStartSample: 1218294
+    mEndSample: 1218294
+  - mStartSample: 1252020
+    mEndSample: 1252020
+  - mStartSample: 1287440
+    mEndSample: 1287440
+  - mStartSample: 1314544
+    mEndSample: 1314544
+  - mStartSample: 1326094
+    mEndSample: 1326094
+  - mStartSample: 1338260
+    mEndSample: 1338260
+  - mStartSample: 1359974
+    mEndSample: 1359974
+  _SerializedPayloadTypes: []
+  _AssetPayloads: []
+  _AssetPayloadIdxs: 
+  _ColorPayloads: []
+  _ColorPayloadIdxs: 
+  _CurvePayloads: []
+  _CurvePayloadIdxs: 
+  _FloatPayloads: []
+  _FloatPayloadIdxs: 
+  _GradientPayloads: []
+  _GradientPayloadIdxs: 
+  _IntPayloads: []
+  _IntPayloadIdxs: 
+  _SpectrumPayloads: []
+  _SpectrumPayloadIdxs: 
+  _TextPayloads: []
+  _TextPayloadIdxs: 
+  _MaterialPayloads: []
+  _MaterialPayloadIdxs: 

@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: MyKoreographyTrack
+  m_EditorClassIdentifier: 
+  mEventID: MusicMinkJump
+  mEventList:
+  - mStartSample: 308700
+    mEndSample: 308700
+  - mStartSample: 418950
+    mEndSample: 418950
+  - mStartSample: 463050
+    mEndSample: 463050
+  - mStartSample: 485100
+    mEndSample: 485100
+  - mStartSample: 529200
+    mEndSample: 529200
+  - mStartSample: 595350
+    mEndSample: 595350
+  - mStartSample: 617400
+    mEndSample: 617400
+  - mStartSample: 661500
+    mEndSample: 661500
+  - mStartSample: 727650
+    mEndSample: 727650
+  - mStartSample: 793800
+    mEndSample: 793800
+  - mStartSample: 837900
+    mEndSample: 837900
+  - mStartSample: 859950
+    mEndSample: 859950
+  - mStartSample: 926100
+    mEndSample: 926100
+  - mStartSample: 992250
+    mEndSample: 992250
+  - mStartSample: 1058400
+    mEndSample: 1058400
+  - mStartSample: 1102500
+    mEndSample: 1102500
+  - mStartSample: 1124550
+    mEndSample: 1124550
+  - mStartSample: 1168650
+    mEndSample: 1168650
+  - mStartSample: 1234800
+    mEndSample: 1234800
+  - mStartSample: 1300950
+    mEndSample: 1300950
+  - mStartSample: 1367100
+    mEndSample: 1367100
+  - mStartSample: 1411200
+    mEndSample: 1411200
+  - mStartSample: 1477350
+    mEndSample: 1477350
+  - mStartSample: 1521450
+    mEndSample: 1521450
+  - mStartSample: 1543500
+    mEndSample: 1543500
+  - mStartSample: 1653750
+    mEndSample: 1653750
+  - mStartSample: 1719900
+    mEndSample: 1719900
+  - mStartSample: 1764000
+    mEndSample: 1764000
+  - mStartSample: 1808100
+    mEndSample: 1808100
+  - mStartSample: 1852200
+    mEndSample: 1852200
+  - mStartSample: 1918350
+    mEndSample: 1918350
+  - mStartSample: 1984500
+    mEndSample: 1984500
+  - mStartSample: 2028600
+    mEndSample: 2028600
+  - mStartSample: 2050650
+    mEndSample: 2050650
+  - mStartSample: 2072700
+    mEndSample: 2072700
+  - mStartSample: 2138850
+    mEndSample: 2138850
+  - mStartSample: 2182950
+    mEndSample: 2182950
+  - mStartSample: 2205000
+    mEndSample: 2205000
+  - mStartSample: 2227050
+    mEndSample: 2227050
+  - mStartSample: 2293200
+    mEndSample: 2293200
+  - mStartSample: 2337300
+    mEndSample: 2337300
+  - mStartSample: 2359350
+    mEndSample: 2359350
+  - mStartSample: 2425500
+    mEndSample: 2425500
+  - mStartSample: 2513700
+    mEndSample: 2513700
+  - mStartSample: 2535750
+    mEndSample: 2535750
+  - mStartSample: 2579850
+    mEndSample: 2579850
+  - mStartSample: 2646000
+    mEndSample: 2646000
+  - mStartSample: 2778300
+    mEndSample: 2778300
+  - mStartSample: 2800350
+    mEndSample: 2800350
+  - mStartSample: 2844450
+    mEndSample: 2844450
+  - mStartSample: 2866500
+    mEndSample: 2866500
+  - mStartSample: 2932650
+    mEndSample: 2932650
+  - mStartSample: 2998800
+    mEndSample: 2998800
+  - mStartSample: 3064950
+    mEndSample: 3064950
+  - mStartSample: 3131100
+    mEndSample: 3131100
+  - mStartSample: 3197250
+    mEndSample: 3197250
+  - mStartSample: 3351600
+    mEndSample: 3351600
+  - mStartSample: 3439800
+    mEndSample: 3439800
+  - mStartSample: 3483900
+    mEndSample: 3483900
+  - mStartSample: 3550050
+    mEndSample: 3550050
+  - mStartSample: 3616200
+    mEndSample: 3616200
+  - mStartSample: 3682350
+    mEndSample: 3682350
+  - mStartSample: 3726450
+    mEndSample: 3726450
+  _SerializedPayloadTypes: []
+  _AssetPayloads: []
+  _AssetPayloadIdxs: 
+  _ColorPayloads: []
+  _ColorPayloadIdxs: 
+  _CurvePayloads: []
+  _CurvePayloadIdxs: 
+  _FloatPayloads: []
+  _FloatPayloadIdxs: 
+  _GradientPayloads: []
+  _GradientPayloadIdxs: 
+  _IntPayloads: []
+  _IntPayloadIdxs: 
+  _SpectrumPayloads: []
+  _SpectrumPayloadIdxs: 
+  _TextPayloads: []
+  _TextPayloadIdxs: 
