@@ -99,6 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 457072ffea485904f8ffcb1d296dd0cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SFX: {fileID: 8300000, guid: d4e543862ae24334093b0792ce932d1b, type: 3}
+  HitEventChannel: {fileID: 11400000, guid: 369f557047ba2b34ebdd6e2db0096d42, type: 2}
   DanceEventChannel: {fileID: 11400000, guid: 82b4e72eb4ba6c847bc6df9acc764e7c, type: 2}
   canCrackDown: 0
   noteSpeed: 0.5

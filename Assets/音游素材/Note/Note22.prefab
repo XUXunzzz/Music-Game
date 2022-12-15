@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4625166839032930792}
   m_Layer: 0
   m_Name: Note22
-  m_TagString: Untagged
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2808460ff4a41468a57f3258733d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitEventChannel: {fileID: 11400000, guid: 369f557047ba2b34ebdd6e2db0096d42, type: 2}
   canPress: 0
   pressButton: 102
   noteSpeed: 2

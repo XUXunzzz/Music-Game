@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class NoteOB : MonoBehaviour
 {
+    [SerializeField] VoidEventChannel HitEventChannel;
     public bool canPress = false;
     [SerializeField] KeyCode pressButton;
     [SerializeField] float noteSpeed;
@@ -13,6 +14,7 @@ public class NoteOB : MonoBehaviour
         if (Input.GetKeyDown(pressButton))
             if (canPress)
             {
+                HitEventChannel.Broadcast();
                 FirstSFXManager.Instance.VoicePlayer.PlayOneShot(SFX);
                 Destroy(this.gameObject);
             }

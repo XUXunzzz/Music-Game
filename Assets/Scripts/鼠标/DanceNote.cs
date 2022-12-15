@@ -5,6 +5,7 @@ using UnityEngine;
 public class DanceNote : MonoBehaviour
 {
     [SerializeField] AudioClip SFX;
+    [SerializeField] VoidEventChannel HitEventChannel;
     public VoidEventChannel DanceEventChannel;
     public bool canCrackDown = false;
     public float noteSpeed;
@@ -16,7 +17,8 @@ public class DanceNote : MonoBehaviour
         if (collision.CompareTag("Mouse"))
             if (canCrackDown)
             {
-                //SecondSFXManager.Instance.VoicePlayer.PlayOneShot(SFX);
+                HitEventChannel.Broadcast();
+                SecondSFXManager.Instance.VoicePlayer.PlayOneShot(SFX);
                 DanceEventChannel.Broadcast();
                 Destroy(this.gameObject);
             }
