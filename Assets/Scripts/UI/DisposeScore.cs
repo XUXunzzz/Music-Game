@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class DisposeScore : MonoBehaviour
 {
-    [SerializeField] Animator ScoreAnim;
-    [SerializeField] Animator ComboAnim;
+    [SerializeField] Animation ScoreAnim;
+    [SerializeField] Animation ComboAnim;
     [SerializeField] Text ScoreText;
     [SerializeField] Text ComboText;
     [SerializeField] Text RatioText; 
@@ -55,8 +55,8 @@ public class DisposeScore : MonoBehaviour
 
     public void HitDispose()
     {
-        ComboAnim.Play("ComboAnim");
-        ScoreAnim.Play("ScoreAnim");
+        ComboAnim.Play(ComboAnim.clip.name);
+        ScoreAnim.Play(ScoreAnim.clip.name);
         comboCount++;
         score += ratio * oneNoteScore;
     }
