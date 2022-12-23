@@ -30,7 +30,7 @@ namespace SonicBloom.Koreo.MyDemo
 
         private void NoteMap(KoreographyEvent koreoEvent, int sampleTime, int sampleDelta, DeltaSlice deltaSlice)
         {
-            noteType = koreoEvent.GetIntValue();
+            noteType = UnityEngine.Random.Range(0, 4);
             switch (noteType)
             {
                 case 0:
