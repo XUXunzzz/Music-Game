@@ -44,9 +44,10 @@ public class CharacterDanceController : MonoBehaviour
             DanceTimer = Time.time;
             secondAction = false;
         }
-        if(!firstAction && !secondAction && Time.time - DanceTimer > 5f)
+        if(!firstAction && !secondAction && Time.time - DanceTimer > 1f)
         {
-            anim.Play("New State");
+            Debug.Log("Ä¬ÈÏ¶¯×÷");
+            anim.Play("Idle");
         }
     }
 

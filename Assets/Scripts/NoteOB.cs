@@ -16,7 +16,6 @@ public class NoteOB : MonoBehaviour
             if (canPress)
             {
                 HitEventChannel.Broadcast();
-                DanceEventChannel.Broadcast();
                 FirstSFXManager.Instance.VoicePlayer.PlayOneShot(SFX);
                 Destroy(this.gameObject);
             }
