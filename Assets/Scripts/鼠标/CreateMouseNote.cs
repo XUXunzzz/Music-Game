@@ -24,23 +24,24 @@ namespace SonicBloom.Koreo.MyDemo
 
         private void CreateDanceNote(KoreographyEvent koreoEvent)
         {
-            int note = UnityEngine.Random.Range(0, 4);
+            //int note = UnityEngine.Random.Range(0, 2);
+            int note = koreoEvent.GetIntValue();
             switch (note)
             {
-                case 0:
-                    Instantiate(noteDic[noteCreatePosTable[note]], noteCreatePosTable[note].position, Quaternion.identity);
+                case 4:
+                    Instantiate(noteDic[noteCreatePosTable[0]], noteCreatePosTable[0].position, noteDic[noteCreatePosTable[0]].transform.rotation);
                     break;
-                case 1:
-                    Instantiate(noteDic[noteCreatePosTable[note]], noteCreatePosTable[note].position, Quaternion.identity);
+                case 5:
+                    Instantiate(noteDic[noteCreatePosTable[1]], noteCreatePosTable[1].position, Quaternion.identity);
                     break;
-                case 2:
-                    Instantiate(noteDic[noteCreatePosTable[note]], noteCreatePosTable[note].position, Quaternion.identity);
+                case 6:
+                    Instantiate(noteDic[noteCreatePosTable[2]], noteCreatePosTable[2].position, noteDic[noteCreatePosTable[2]].transform.rotation);
                     break;
-                case 3:
-                    Instantiate(noteDic[noteCreatePosTable[note]], noteCreatePosTable[note].position, Quaternion.identity);
+                case 7:
+                    Instantiate(noteDic[noteCreatePosTable[3]], noteCreatePosTable[3].position, Quaternion.identity);
                     break;
                 default:
-                    Debug.LogError("Éú³ÉÒô·û´íÎó");
+                    //Debug.Log("×óÂÖÅÌ³ö¼ü");
                     break;
             }
         }
