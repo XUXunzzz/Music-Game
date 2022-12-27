@@ -30,7 +30,7 @@ namespace SonicBloom.Koreo.MyDemo
 
         private void NoteMap(KoreographyEvent koreoEvent, int sampleTime, int sampleDelta, DeltaSlice deltaSlice)
         {
-            noteType = UnityEngine.Random.Range(0, 4);
+            noteType = koreoEvent.GetIntValue();
             switch (noteType)
             {
                 case 0:
@@ -46,7 +46,7 @@ namespace SonicBloom.Koreo.MyDemo
                     Instantiate(noteDic[noteCreatePos[noteType]], noteCreatePos[noteType].position, Quaternion.identity);
                     break;
                 default:
-                    Debug.LogError("随机值出现错误");
+                    //Debug.Log("右轮盘出键");
                     break;
             }
         }
