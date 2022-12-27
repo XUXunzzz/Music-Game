@@ -5,7 +5,6 @@ using UnityEngine;
 public class NoteOB : MonoBehaviour
 {
     [SerializeField] VoidEventChannel HitEventChannel;
-    [SerializeField] VoidEventChannel DanceEventChannel;
     public bool canPress = false;
     [SerializeField] KeyCode pressButton;
     [SerializeField] float noteSpeed;

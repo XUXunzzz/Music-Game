@@ -27,14 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7313038932252941395}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 2.3170002, y: 1.0910001, z: 1}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.23, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &5378563098584565991
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: ebfc1d63590966c4aab0079208dce6e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1c7715de71c095e42b70a0ea2cc0557e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFX: {fileID: 8300000, guid: d4e543862ae24334093b0792ce932d1b, type: 3}
   HitEventChannel: {fileID: 11400000, guid: 369f557047ba2b34ebdd6e2db0096d42, type: 2}
-  DanceEventChannel: {fileID: 11400000, guid: 7d06fea6e9be81f4f84bc812390d2187, type: 2}
+  DanceEventChannel: {fileID: 11400000, guid: 82b4e72eb4ba6c847bc6df9acc764e7c, type: 2}
   canCrackDown: 0
   noteSpeed: 0.5
 --- !u!50 &3621928479586829972
@@ -142,7 +142,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.07, y: 0.74}
+    oldSize: {x: 1.15, y: 0.43}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
