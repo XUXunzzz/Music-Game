@@ -8,6 +8,9 @@ public class CharacterDanceController : MonoBehaviour
     [SerializeField] VoidEventChannel SecondDanceEventChannel;
     private Animator anim;
     private bool firstAction = false, secondAction = false;
+    public float actionTime = 1f;
+    private float Timer;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -31,15 +34,22 @@ public class CharacterDanceController : MonoBehaviour
     {
         if(firstAction)
         {
-            //anim.Play("FirstAction");
+            anim.Play("FirstAction");
             Debug.Log($"{this.gameObject.name}做出了第一个动作");
+            Timer = Time.time;
             firstAction = false;
         }
         if(secondAction)
         {
-            //anim.Play("SecondAction");
+            anim.Play("SecondAction");
             Debug.Log($"{this.gameObject.name}做出了第二个动作");
+            Timer = Time.time;
             secondAction = false;
+        }
+        if(!firstAction && !secondAction && Time.time - Timer > actionTime)
+        {
+            anim.Play("Idle");
+            Debug.Log("默认动作");
         }
     }
     public void FirstDance()

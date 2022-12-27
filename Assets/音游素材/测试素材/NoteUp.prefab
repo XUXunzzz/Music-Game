@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFX: {fileID: 8300000, guid: d4e543862ae24334093b0792ce932d1b, type: 3}
   HitEventChannel: {fileID: 11400000, guid: 369f557047ba2b34ebdd6e2db0096d42, type: 2}
-  DanceEventChannel: {fileID: 11400000, guid: 97c480fa336ed36408816a89465eb1ed, type: 2}
+  DanceEventChannel: {fileID: 11400000, guid: ddcaf0a143bd452469c7d2c16d5c0a47, type: 2}
   canCrackDown: 0
   noteSpeed: 0.5
 --- !u!50 &-3513317575658004581

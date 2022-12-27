@@ -43,7 +43,7 @@ public class MusicMapManager : MonoBehaviour
         Vector3 targetPos = Rocker.transform.localPosition;
 
         targetPos += rockerMoveSpeed * mouseDir * Time.deltaTime;
-        if (mouseDir.magnitude >= .45f)
+        if (mouseDir.magnitude >= 0.05f)
         {
             if (IsInsideTheDiamond(targetPos))
             {

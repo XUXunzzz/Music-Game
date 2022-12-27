@@ -141,7 +141,7 @@ namespace MagicaCloth
 #if MAGICACLOTH_USE_COLLECTIONS_130
             public NativeParallelMultiHashMap<int, int> vertexToParticleMap;
 #else
-            public NativeMultiHashMap<int, int> vertexToParticleMap;
+            public NativeMultiHashMap<int, int> vertexToParticleMap;1
 #endif
 
             [Unity.Collections.ReadOnly]
