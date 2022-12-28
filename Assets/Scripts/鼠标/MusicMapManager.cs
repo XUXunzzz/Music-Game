@@ -5,16 +5,16 @@ using UnityEngine;
 public class MusicMapManager : MonoBehaviour
 {
     [SerializeField] GameObject Rocker;//鼠标
+    [SerializeField] AudioSource gameMusic;
     [SerializeField] float rockerMoveSpeed , lerpSpeed;//鼠标移动速度
     float Th = 1.6f, Tw = 1.6f;
-    
-    private void Start()
+
+    private void Awake()
     {
-        GameInit();
+        Rocker.transform.localPosition = Vector3.zero;
     }
     public void GameInit()
     {
-        Rocker.transform.localPosition = Vector3.zero;
         Cursor.lockState = CursorLockMode.Locked;
     }
     private void Update()

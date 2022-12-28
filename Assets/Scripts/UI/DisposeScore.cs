@@ -47,7 +47,7 @@ public class DisposeScore : MonoBehaviour
     {
         ratio = (comboCount / 5f) * 0.1f + 1.0f;
         ratio = Mathf.Clamp(ratio, 1.0f, 2.0f);
-        Debug.Log($"{ratio}");
+        //Debug.Log($"{ratio}");
         ScoreText.text = score.ToString();
         RatioText.text = ratio.ToString("0.0");
         ComboText.text = comboCount.ToString();

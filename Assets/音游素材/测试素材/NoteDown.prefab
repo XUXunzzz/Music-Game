@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11468fc1d6686894b9627c555a37a469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFX: {fileID: 8300000, guid: d4e543862ae24334093b0792ce932d1b, type: 3}
+  SFX: {fileID: 8300000, guid: 6baeadb8de64f2f49aaf831b9854e04b, type: 3}
   HitEventChannel: {fileID: 11400000, guid: 369f557047ba2b34ebdd6e2db0096d42, type: 2}
   DanceEventChannel: {fileID: 11400000, guid: ddcaf0a143bd452469c7d2c16d5c0a47, type: 2}
   canCrackDown: 0
