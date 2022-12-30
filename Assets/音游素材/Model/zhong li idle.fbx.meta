@@ -1,12 +1,102 @@
 fileFormatVersion: 2
 guid: f3654d1580a31944bba1f0fd11997673
 ModelImporter:
-  serializedVersion: 21202
+  serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: -8836653055912948079
     second: "\u949F\u79BB_arm|\u949F\u79BB_armAction"
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u4E8C\u91CD"
+    second: {fileID: 2100000, guid: db4885977c183f942ba09ea2c1e0739c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u53D1"
+    second: {fileID: 2100000, guid: 1ad9f96c7172105498cfbb4386dce65c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u53D1+"
+    second: {fileID: 2100000, guid: 23fc21dad29bd18498bc68b652514911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u53E3\u9F7F"
+    second: {fileID: 2100000, guid: 545e1390e01142948940d8de31fc8c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u670D1"
+    second: {fileID: 2100000, guid: 26dd6c7ec249afe4f8fb0ada328fd4ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u670D2"
+    second: {fileID: 2100000, guid: dc5281f54051fb8408fe7f2cf7d53979, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u670D\u5185"
+    second: {fileID: 2100000, guid: fee29fc3ce3b4ed44b59c9617b66446f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u7167\u308C"
+    second: {fileID: 2100000, guid: 581ca312bf3233d4c9ad710b92cbe2b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u767D\u76EE"
+    second: {fileID: 2100000, guid: 60d6f53904dd6df40adaa9ed9a366db5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u76EE"
+    second: {fileID: 2100000, guid: c51271bc0900ae84fad76ea78224264b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u76EE\u661F"
+    second: {fileID: 2100000, guid: 1882d9a29d3c7034983f5421651f0d71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u7709"
+    second: {fileID: 2100000, guid: 7aba231c66f8fda4b803ed75bdba117a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u776B"
+    second: {fileID: 2100000, guid: 70cf47f1f58ead84295f900071e487bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u795E\u4E4B\u773C"
+    second: {fileID: 2100000, guid: 842c61511fac4c94088af9efaacaf07d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u8033\u5760"
+    second: {fileID: 2100000, guid: 517161c83255b95409dc8c6d438384c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u9762"
+    second: {fileID: 2100000, guid: 9661efe0e7675c246a2fef259965fc12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u9970"
+    second: {fileID: 2100000, guid: 02ba67f4a1569a247aa7b3d6566cc57f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u9996"
+    second: {fileID: 2100000, guid: 357f7297bda89814f933acf8b72d929d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -2592,6 +2682,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
