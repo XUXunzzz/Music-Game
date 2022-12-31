@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u5934\u53D1OK"
+  m_Shader: {fileID: 4800000, guid: d68ae1b68b368b34e86541aa3fa8794c, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ILM:
+        m_Texture: {fileID: 2800000, guid: 7bce912e9cd3df44b978ed5f7fe957f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a8889cf4bd465364bafc9cf206536175, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalMatCapTex:
+        m_Texture: {fileID: 2800000, guid: 40dec4fc0fe42d14ebe4ed2b4d9cc95d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 6d745fcda33470d47843899c26df9a52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMatCapTex:
+        m_Texture: {fileID: 2800000, guid: bd78e63f49be1f941bf41f118cbe4539, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonTex:
+        m_Texture: {fileID: 2800000, guid: bd78e63f49be1f941bf41f118cbe4539, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Diffuse_Color_Mixing_C: 0.5
+    - _MetalSpecularLevel: 1.38
+    - _Metalbrightness: 2.66
+    - _OutlineOffset: 0.23
+    - _OutlineWidth: 0.002
+    - _Overallbrightness: 1.25
+    - _RampMapRow0: 1
+    - _RampMapRow1: 4
+    - _RampMapRow2: 3
+    - _RampMapRow3: 5
+    - _RampMapRow4: 1.54
+    - _Saturation: 1.99
+    - _fresnelPower: 2.15
+    - _fresnelclamp: 0.033
+    - _rimMax: 0
+    - _rimStrength: 0.873
+    - _rimThreshold: 0.0021
+    - _rimoffset: 0.64
+    m_Colors:
+    - _AmbientColor: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+    - _DiffuseColor: {r: 0.2, g: 0.09507707, b: 0, a: 1}
+    - _ILM: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
+    - _SpecularColourCast: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
