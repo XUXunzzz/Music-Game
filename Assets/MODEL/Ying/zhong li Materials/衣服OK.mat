@@ -46,27 +46,27 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Diffuse_Color_Mixing_C: 0
-    - _MetalSpecularLevel: 6.83
-    - _Metalbrightness: 1.07
+    - _Diffuse_Color_Mixing_C: 0.44
+    - _MetalSpecularLevel: 4
+    - _Metalbrightness: 2.24
     - _OutlineOffset: 0.23
     - _OutlineWidth: 0.0035
-    - _Overallbrightness: 0.78
+    - _Overallbrightness: 0.72
     - _RampMapRow0: 1
     - _RampMapRow1: 4
     - _RampMapRow2: 3
     - _RampMapRow3: 5
     - _RampMapRow4: 2
     - _Saturation: 0.94
-    - _fresnelPower: 2.15
-    - _fresnelclamp: 0.033
+    - _fresnelPower: 3.6
+    - _fresnelclamp: 0.72
     - _rimMax: 0.687
-    - _rimStrength: 0.873
+    - _rimStrength: 0
     - _rimThreshold: 0.0021
     - _rimoffset: 4.09
     m_Colors:
     - _AmbientColor: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
-    - _DiffuseColor: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+    - _DiffuseColor: {r: 0.9921569, g: 0.86274517, b: 0.75294125, a: 1}
     - _ILM: {r: 1, g: 1, b: 1, a: 1}
     - _ShadowColor: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
     - _SpecularColourCast: {r: 1, g: 0.949492, b: 0.8726415, a: 1}
