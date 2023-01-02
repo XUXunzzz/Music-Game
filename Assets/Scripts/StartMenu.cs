@@ -14,6 +14,7 @@ public class StartMenu : MonoBehaviour
     [SerializeField] AnimationCurve hideCurve;
     [SerializeField] GameObject startMenuUI;
     [SerializeField] float showSpeed;
+    [SerializeField] List<GameObject>playUI;
 
     //“Ù–ß
     [SerializeField] AudioClip changeSFX;
@@ -26,7 +27,17 @@ public class StartMenu : MonoBehaviour
     public void StartGame()
     {
         StartCoroutine(nameof(StartMenuAnimationHide));
+        GameUI_Dis();
     }
+
+    public void GameUI_Dis()
+    {
+        foreach(GameObject ui in playUI)
+            ui.SetActive(true);
+    }
+
+
+
     public void QuitGame()
     {
 #if UNITY_EDITOR
