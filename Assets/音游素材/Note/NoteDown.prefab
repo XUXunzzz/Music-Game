@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8771926476292047161}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3170002, y: 1.0910001, z: 1}
-  m_LocalScale: {x: 0.23, y: 0.2, z: 0.2}
+  m_LocalPosition: {x: 2.3238, y: 1.1082, z: 1}
+  m_LocalScale: {x: 0.24183202, y: 0.27994, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11468fc1d6686894b9627c555a37a469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SFX: {fileID: 8300000, guid: 6baeadb8de64f2f49aaf831b9854e04b, type: 3}
+  SFX: {fileID: 8300000, guid: 284da18e011b5ee4aa5d23f140a423a6, type: 3}
   HitEventChannel: {fileID: 11400000, guid: 369f557047ba2b34ebdd6e2db0096d42, type: 2}
   DanceEventChannel: {fileID: 11400000, guid: ddcaf0a143bd452469c7d2c16d5c0a47, type: 2}
   canCrackDown: 0

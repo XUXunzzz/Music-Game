@@ -102,7 +102,7 @@ MonoBehaviour:
   canPress: 0
   pressButton: 97
   noteSpeed: 2
-  SFX: {fileID: 8300000, guid: 39c953a3026b1cd428211db711e397da, type: 3}
+  SFX: {fileID: 8300000, guid: 31f20b3846479c14dac38ca21b2ce2a5, type: 3}
 --- !u!58 &-4568467828812864524
 CircleCollider2D:
   m_ObjectHideFlags: 0
